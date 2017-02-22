@@ -70,14 +70,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/lenovo/A6020/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/lenovo/A6020/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
-    vendor/lenovo/A6020/proprietary/etc/default/thermal-engine.conf:system/etc/default/thermal-engine.conf \
-    vendor/lenovo/A6020/proprietary/etc/default/venus.b00:system/etc/default/venus.b00 \
-    vendor/lenovo/A6020/proprietary/etc/default/venus.b01:system/etc/default/venus.b01 \
-    vendor/lenovo/A6020/proprietary/etc/default/venus.b02:system/etc/default/venus.b02 \
-    vendor/lenovo/A6020/proprietary/etc/default/venus.b03:system/etc/default/venus.b03 \
-    vendor/lenovo/A6020/proprietary/etc/default/venus.b04:system/etc/default/venus.b04 \
-    vendor/lenovo/A6020/proprietary/etc/default/venus.mbn:system/etc/default/venus.mbn \
-    vendor/lenovo/A6020/proprietary/etc/default/venus.mdt:system/etc/default/venus.mdt \
     vendor/lenovo/A6020/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/lenovo/A6020/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
     vendor/lenovo/A6020/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
@@ -96,6 +88,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
     vendor/lenovo/A6020/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/lenovo/A6020/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+    vendor/lenovo/A6020/proprietary/etc/firmware/variant/default/venus.b01:system/etc/firmware/variant/default/venus.b01 \
+    vendor/lenovo/A6020/proprietary/etc/firmware/variant/default/venus.mbn:system/etc/firmware/variant/default/venus.mbn \
+    vendor/lenovo/A6020/proprietary/etc/firmware/variant/default/venus.mdt:system/etc/firmware/variant/default/venus.mdt \
     vendor/lenovo/A6020/proprietary/etc/firmware/variant/A6020a40/venus.b01:system/etc/firmware/variant/A6020a40/venus.b01 \
     vendor/lenovo/A6020/proprietary/etc/firmware/variant/A6020a40/venus.mbn:system/etc/firmware/variant/A6020a40/venus.mbn \
     vendor/lenovo/A6020/proprietary/etc/firmware/variant/A6020a40/venus.mdt:system/etc/firmware/variant/A6020a40/venus.mdt \
