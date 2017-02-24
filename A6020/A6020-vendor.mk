@@ -417,7 +417,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so
 
-PRODUCT_PACKAGES += TimeService \
+PRODUCT_PACKAGES += \
+    TimeService \
     ims \
     imssettings \
     imscmlibrary
