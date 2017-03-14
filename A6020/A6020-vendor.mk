@@ -30,7 +30,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lenovo/A6020/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lenovo/A6020/proprietary/bin/radish:system/bin/radish \
-    vendor/lenovo/A6020/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/lenovo/A6020/proprietary/bin/rild:system/bin/rild \
     vendor/lenovo/A6020/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lenovo/A6020/proprietary/bin/thermal-engine:system/bin/thermal-engine \
@@ -418,10 +417,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so
 
 PRODUCT_PACKAGES += \
-    TimeService \
     ims \
     imssettings \
-    imscmlibrary
+    imscmlibrary \
+    TimeService
 
 $(call inherit-product, vendor/qcom/binaries/msm8916-32/graphics/graphics-vendor.mk)
 $(call inherit-product, vendor/qcom/binaries/msm8916-64/graphics/graphics-vendor.mk)
