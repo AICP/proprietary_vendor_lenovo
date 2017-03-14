@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/lenovo/A6020/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/lenovo/A6020/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/lenovo/A6020/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/lenovo/A6020/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lenovo/A6020/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/lenovo/A6020/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -117,14 +116,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
     vendor/lenovo/A6020/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/lenovo/A6020/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:system/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
-    vendor/lenovo/A6020/proprietary/etc/flp.conf:system/etc/flp.conf \
-    vendor/lenovo/A6020/proprietary/etc/gps.conf:system/etc/gps.conf \
-    vendor/lenovo/A6020/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/lenovo/A6020/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/lenovo/A6020/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/lenovo/A6020/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lenovo/A6020/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
-    vendor/lenovo/A6020/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/lenovo/A6020/proprietary/etc/sec_config:system/etc/sec_config \
     vendor/lenovo/A6020/proprietary/etc/sound_trigger_mixer_paths.xml:system/etc/sound_trigger_mixer_paths.xml \
     vendor/lenovo/A6020/proprietary/etc/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
@@ -223,6 +218,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
@@ -367,6 +363,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libFileMux.so:system/vendor/lib64/libFileMux.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libHevcSwDecoder.so:system/vendor/lib64/libHevcSwDecoder.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
@@ -418,7 +415,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so
 
-PRODUCT_PACKAGES += TimeService \
+PRODUCT_PACKAGES += \
+    TimeService \
     ims \
     imssettings \
     imscmlibrary
