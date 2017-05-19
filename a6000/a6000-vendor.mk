@@ -84,6 +84,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6000/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libchromatix_gc2355_8916_common.so:system/vendor/lib/libchromatix_gc2355_8916_common.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libchromatix_gc2355_8916_default_video.so:system/vendor/lib/libchromatix_gc2355_8916_default_video.so \
@@ -109,6 +110,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6000/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
+    vendor/lenovo/a6000/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
@@ -116,6 +118,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6000/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
